@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+
+header {
+       margin-bottom: 0; 
+}
+
+/* /////////////////////////////////////////////////////
+//////////////////////NAVIGATION///////////////////////
+//////////////////////////////////////////////////// */
+
+nav {
+    text-align: center;
+   margin-top: 0;
+   background-color: grey;
+   height: 50px;
+   
+ 
+ }
+
+.menu-items {
+    display: inline; 
+  font-size: 32px;
+  color:linen;
+  margin-right: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 0;
+  padding-top: 0;
+
+  }
+
+
+/* /////////////////////////////////////////////////////
+//////////////////////INGREDIENTS///////////////////////
+//////////////////////////////////////////////////// */
+
+.float-ingredients {
+
+    float: left;
+    width: 400px;
+    padding-left: 70px;
+}
+
+/* /////////////////////////////////////////////////////
+//////////////////////INSTRUCTIONS//////////////////////
+//////////////////////////////////////////////////// */
+
+.float-instructions {
+
+    float: right; 
+    width: 900px;
+    background: #F5F5F5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+    a:visited {
+        color: linen;
+    }
+
+    a {
+        text-decoration: none;
+        color: linen;
+    }
+
+    h1 {
+        font-family: 'Cormorant Garamond', serif;
+        color: gray;
+        font-kerning: auto;
+        font-size: 30px;
+    }
+
+
+  .unordered-list-item {
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+  .section-start {
+        padding-left: 70px;
+
+  }
+
+ol {
+    color: darkslategrey;
+}
+
+ul {
+    color: darkslategrey;
+}
+
+img {
+    width: 100%;
+    /* height: auto; */
+}
+  
+  li {
+    padding: 10px;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 20px;
+   }
+
+   .footer {
+    
+        clear: both;     
+        width: 100%;  
+        height: 300px;
+        background-color: darkslategray;
+
+   }
+
+   .column {
+    float: left;
+    width: 20%;
+    margin: 20px 1.15%;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+   }
